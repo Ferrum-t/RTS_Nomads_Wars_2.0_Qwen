@@ -1,8 +1,8 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1786820278
+::res://::1786820886
 godot_log.txt::TextFile::-1::1786284947::0::1::::<><><>0<>0<><>::
 godot_run_log.txt::TextFile::-1::1786284978::0::1::::<><><>0<>0<><>::
-icon.svg::CompressedTexture2D::4062151496533965238::1782492313::1782492322::1::::<><><>0<>0<>eb0750b38165a9537e9c74106c29fc5e<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+icon.svg::CompressedTexture2D::4062151496533965238::1782492313::1786820854::1::::<><><>0<>0<>eb0750b38165a9537e9c74106c29fc5e<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 LICENCE.txt::TextFile::-1::1784200937::0::1::::<><><>0<>0<><>::
 Nomads_Wars_RTS_CONTEXT.txt::TextFile::-1::1785781127::0::1::::<><><>0<>0<><>::
 Новый текстовый документ.txt::TextFile::-1::1786802092::0::1::::<><><>0<>0<><>::
@@ -82,8 +82,8 @@ soldier.tscn::PackedScene::-1::1785875245::0::1::::<><><>0<>0<><>::res://Scripts
 worker.tscn::PackedScene::6569148731697233973::1784489264::0::1::::<><><>0<>0<><>::uid://c3gv2hxil0wej::::res://Scripts/Units/Worker.gd<>res://Scripts/Components/HarvestComponent.gd<>uid://brxyotphs0ik1::::res://Scripts/Components/MovementComponent.gd<>res://Scripts/Components/InventoryComponent.gd
 ::res://Scenes/Units/Player/::1786817282
 player.tscn::PackedScene::226176198965525342::1783364587::0::1::::<><><>0<>0<><>::
-::res://Scenes/World/::1786817282
-World.tscn::PackedScene::3207360180115639788::1786724937::0::1::::<><><>0<>0<><>::uid://dhtda3gbguxa::::res://Scenes/Units/Player/player.tscn<>uid://bc5v8urtpgmia::::res://Scripts/Systems/Managers/GameManager.gd<>uid://c5eg4svg4lqrb::::res://Scripts/World.gd<>uid://bj5w1rt6e8vw2::::res://Scripts/Units/player.gd<>uid://cq426y3xkwwyb::::res://Scripts/Camera/camera_rts.gd<>uid://u61hpptia8qo::::res://Scripts/RTS/SelectionManager.gd<>uid://ml2jlymdywqp::::res://Scripts/Systems/Managers/InteractionManager.gd<>uid://cbpl1yxfa0pmr::::res://Scenes/UI/SelectionBox.tscn<>uid://c0ue6jlv400cv::::res://Scenes/Units/worker.tscn<>uid://bx815rivswsmy::::res://Scripts/Systems/Managers/CommandManager.gd<>uid://dehogsm5jd85s::::res://Scenes/Resorces/Tree.tscn<>uid://c4vqup51xixto::::res://Scenes/Buildings/TownCenter.tscn<>uid://ctoqn17qfadcq::::res://Scenes/UI/ui.tscn<>res://Scenes/Resorces/Fiber.tscn<>res://Scenes/Resorces/Crystal.tscn<>res://Scenes/Resorces/Ore.tscn<>uid://cjydm01ba8mpc::::res://Scripts/Systems/Managers/ProductionManager.gd<>res://Scenes/RTSNavigation/GridMap.tscn<>res://Scenes/RTSNavigation/GridPathfinder.tscn
+::res://Scenes/World/::1786820623
+World.tscn::PackedScene::3207360180115639788::1786820623::0::1::::<><><>0<>0<><>::uid://dhtda3gbguxa::::res://Scenes/Units/Player/player.tscn<>uid://bc5v8urtpgmia::::res://Scripts/Systems/Managers/GameManager.gd<>uid://c5eg4svg4lqrb::::res://Scripts/World.gd<>uid://bj5w1rt6e8vw2::::res://Scripts/Units/player.gd<>uid://cq426y3xkwwyb::::res://Scripts/Camera/camera_rts.gd<>uid://u61hpptia8qo::::res://Scripts/RTS/SelectionManager.gd<>uid://ml2jlymdywqp::::res://Scripts/Systems/Managers/InteractionManager.gd<>uid://cbpl1yxfa0pmr::::res://Scenes/UI/SelectionBox.tscn<>uid://c0ue6jlv400cv::::res://Scenes/Units/worker.tscn<>uid://bx815rivswsmy::::res://Scripts/Systems/Managers/CommandManager.gd<>uid://dehogsm5jd85s::::res://Scenes/Resorces/Tree.tscn<>uid://c4vqup51xixto::::res://Scenes/Buildings/TownCenter.tscn<>uid://ctoqn17qfadcq::::res://Scenes/UI/ui.tscn<>res://Scenes/Resorces/Fiber.tscn<>res://Scenes/Resorces/Crystal.tscn<>res://Scenes/Resorces/Ore.tscn<>uid://cjydm01ba8mpc::::res://Scripts/Systems/Managers/ProductionManager.gd<>res://Scenes/RTSNavigation/GridMap.tscn<>res://Scenes/RTSNavigation/GridPathfinder.tscn
 ::res://Scripts/::1786817282
 World.gd::GDScript::6887181255696266539::1785339739::0::1::::<>Node3D<><>0<>0<><>::
 ::res://Scripts/AI/::1783070193
@@ -94,12 +94,12 @@ BuildingData.gd::GDScript::5474089052970546238::1784302927::0::1::::BuildingData
 TownCenter.gd::GDScript::7224424927273160310::1786353137::0::1::::TownCenter<>BaseBuilding<><>0<>0<><>::
 ::res://Scripts/Camera/::1786817282
 camera_rts.gd::GDScript::5957425843752396217::1784656750::0::1::::<>Node3D<><>0<>0<><>::
-::res://Scripts/Components/::1786817282
+::res://Scripts/Components/::1786820623
 CombatComponent.gd::GDScript::8498851716679144829::1785879020::0::1::::CombatComponent<>Node<><>0<>0<><>::
 HarvestComponent.gd::GDScript::7726085177484038724::1784490500::0::1::::HarvestComponent<>Node<><>0<>0<><>::
 HealthComponent.gd::GDScript::2667686586478929623::1785962353::0::1::::HealthComponent<>Node<><>0<>0<><>::
 InventoryComponent.gd::GDScript::627630111679336439::1784489621::0::1::::InventoryComponent<>Node<><>0<>0<><>::
-MovementComponent.gd::GDScript::3628594944282903318::1786724882::0::1::::MovementComponent<>Node<><>0<>0<><>::
+MovementComponent.gd::GDScript::3628594944282903318::1786820623::0::1::::MovementComponent<>Node<><>0<>0<><>::
 ::res://Scripts/Effects/::1783070209
 ::res://Scripts/Enemy/::1783070164
 ::res://Scripts/Jobs/::1786817282
