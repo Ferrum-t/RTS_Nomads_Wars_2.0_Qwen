@@ -1,4 +1,5 @@
 extends Node
+class_name UnitManagerClass
 
 var units: Array[BaseUnit] = []
 

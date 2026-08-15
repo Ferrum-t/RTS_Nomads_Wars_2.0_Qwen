@@ -1,4 +1,5 @@
 extends Node
+class_name ConstructionManagerClass
 
 var current_ghost: GhostBuilding = null
 var current_building_data: BuildingData = null

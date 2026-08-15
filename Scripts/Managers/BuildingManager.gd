@@ -1,4 +1,5 @@
 extends Node
+class_name BuildingManager
 
 var town_center: TownCenter = null
 
