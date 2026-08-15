@@ -120,4 +120,20 @@ func _on_velocity_computed(safe_velocity: Vector3) -> void:
 			var shape = col_shape_node.shape
 			if shape != null:
 				if shape is CylinderShape3D:
-					shape_info = "Cylinder(radius: " + str(shape.radius) + ", height: " + str(shape.height) +
+					shape_info = "Cylinder(radius: " + str(shape.radius) + ", height: " + str(shape.height) + ")"
+				elif shape is SphereShape3D:
+					shape_info = "Sphere(radius: " + str(shape.radius) + ")"
+				elif shape is BoxShape3D:
+					shape_info = "Box(size: " + str(shape.size) + ")"
+				else:
+					shape_info = shape.resource_name if shape.resource_name != "" else str(shape)
+		
+		print("[RVO_DEBUG] Unit: ", unit.name, 
+			" | RID: ", my_rid, 
+			" | Map: ", my_map, 
+			" | WorldMap: ", world_3d_map, 
+			" | PosDiff: %.2f" % pos_diff,
+			" | Shape: ", shape_info,
+			" | SafeVel: ", safe_velocity)
+		
+		unit.velocity = safe_velocity
