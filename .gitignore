@@ -1,1 +1,19 @@
-.godot/
+```
+# Godot-specific ignores
+*.import
+*.pid
+*.tmp
+*.cache
+.scn
+.res
+
+# Build artifacts
+export_presets.cfg
+
+# Editor
+.vscode/
+.idea/
+
+# Dependencies
+addons/
+```
